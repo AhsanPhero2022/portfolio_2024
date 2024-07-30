@@ -70,12 +70,11 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="service1">Service 1</SelectItem>
-                    <SelectItem value="service2">Service 2</SelectItem>
-                    <SelectItem value="service3">Service 3</SelectItem>
-                    <SelectItem value="service4">Service 4</SelectItem>
-                    <SelectItem value="service5">Service 5</SelectItem>
-                  </SelectGroup>
+                    <SelectItem value="service1">Full Stack Development</SelectItem>
+                    <SelectItem value="service2">Frontend Development</SelectItem>
+                    <SelectItem value="service3">Email Template Design</SelectItem>
+                    <SelectItem value="service4">SEO With Next.js</SelectItem>
+                                     </SelectGroup>
                 </SelectContent>
               </Select>
               <Textarea

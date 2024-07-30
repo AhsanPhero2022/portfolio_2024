@@ -1,6 +1,5 @@
 "use client";
 
-import { Description } from "@radix-ui/react-dialog";
 import { BsArrowDownRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -8,37 +7,37 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "web development",
-    Description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, at quisquam sit beatae ratione dolore.",
-    href: "",
+    title: "Full Stack Development",
+    description:
+      "Welcome to Soriful's Web Development Services! With 2 years of dedicated learning and 6 months of remote intern experience in Australia odoo, I offer comprehensive and high-quality web development solutions specializing in the MERN stack. Enhancing code quality and maintainability by leveraging TypeScript's static typing, ensuring fewer bugs and more robust applications.",
+    href: "/contact",
   },
   {
     num: "02",
-    title: "UI/UX design",
-    Description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, at quisquam sit beatae ratione dolore.",
-    href: "",
+    title: "Frontend Development",
+    description:
+      "React.js & Next.js: I build dynamic, high-performing, and responsive user interfaces using React.js and Next.js. My focus is on creating seamless user experiences with fast-loading, SEO-friendly website. Mastery in Tailwind CSS, Material-UI, Ant Design, and Bootstrap to craft visually appealing and user-friendly interfaces tailored to your brand's unique style.",
+    href: "/contact",
   },
   {
     num: "03",
-    title: "Logo design",
-    Description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, at quisquam sit beatae ratione dolore.",
+    title: "Email Template Design",
+    description:
+      "Elevate your email marketing campaigns with professional and visually stunning email templates designed by Soriful. With a keen eye for design and a solid understanding of modern email marketing strategies, I offer custom email template design services that help you connect with your audience effectively and drive engagement. Crafting unique and personalized email templates that reflect your brand's identity and resonate with your target audience.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
-    Description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, at quisquam sit beatae ratione dolore.",
-    href: "",
+    title: "SEO With Next.js",
+    description:
+      "In the competitive digital landscape, optimizing your website for search engines is crucial for driving organic traffic. Next.js, offers unique advantages for SEO. By leveraging Server-Side Rendering (SSR) and Static Site Generation (SSG), Next.js ensures your pages are fully rendered and load quickly. Next.js helps elevate your search engine rankings and attract more visitors. Invest in Next.js SEO to maximize your online presence and achieve lasting digital success",
+    href: "/contact",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
+    <section className="min-h-full flex flex-col justify-center py-12 xl:py-0">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
@@ -71,7 +70,7 @@ const Services = () => {
                   {service.title}
                 </h2>
                 {/* description */}
-                <p className="text-white/60">{service.Description}</p>
+                <p className="text-white/60">{service.description}</p>
                 {/* border */}
                 <div className="border-b border-white/20"></div>
               </div>
