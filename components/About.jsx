@@ -54,7 +54,7 @@ const About = () => {
             Who I&apos;m
           </p>
           <h3 className="text-4xl font-bold text-gray-100 poppins-font">
-            My name is Sharif Ahmad,
+            My name is Soriful Ismam,
           </h3>
           <p className=" mt-1 w-full text-gray-400 ">
             A 23-year-old web application developer, Currently pursuing a

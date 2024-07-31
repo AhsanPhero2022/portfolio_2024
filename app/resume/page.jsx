@@ -69,7 +69,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam numquam deleniti maxime, quia voluptates inventore.",
+    "As a seasoned web developer, I bring a wealth of knowledge and hands-on experience in the latest web technologies. Only my expertise technologies includes here.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -141,7 +141,7 @@ const Resume = () => {
           <div className="min-h-[70vh] w-full">
             <TabsContent value="skills" className="w-full h-full">
               <div className="flex flex-col gap-[30px] ">
-                <div className="flex felx-col gap-[30px] text-center xl:text-left ">
+                <div className="flex flex-col gap-[30px] text-center xl:text-left ">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
                   <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                     {skills.description}

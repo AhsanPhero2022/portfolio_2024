@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Photo from "@/components/Photo";
+import Skills from "@/components/Skills";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
@@ -48,6 +49,7 @@ const Home = () => {
       </div>
       <Stats />
       <About />
+      <Skills />
     </section>
   );
 };
