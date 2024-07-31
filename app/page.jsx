@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
@@ -26,7 +27,9 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
+                <a download href="/assets/Sharif_Resume.pdf">
+                  Download Resume
+                </a>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
@@ -44,6 +47,7 @@ const Home = () => {
         </div>
       </div>
       <Stats />
+      <About />
     </section>
   );
 };
