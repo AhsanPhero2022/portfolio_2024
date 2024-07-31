@@ -4,14 +4,14 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className="container">
-      <div className="mt-20 mb-6">
-        <hr className="animate-bounce  h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-accent" />
+    <section className="container my-16">
+      <div className="mt-8">
+        <hr className="animate-bounce  h-2 w-[80px] mx-auto mb-2 border-0 rounded-full bg-accent" />
         <h2 className="poppins-font text-4xl font-bold text-center text-white">
           About Me
         </h2>
       </div>
-      <div className="flex flex-col gap-4 xl:flex-row lg:flex-row justify-between items-center mt-16">
+      <div className="flex my-8 flex-col gap-4 xl:flex-row lg:flex-row justify-between items-center ">
         <div className="lg:w-[50%] xl:w[50%]">
           <img
             src="/assets/unnamed.jpg"

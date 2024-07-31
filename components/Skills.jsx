@@ -231,10 +231,10 @@ const skills = {
 
 const Skills = () => {
   return (
-    <section className="container my-18">
+    <section className="container my-16">
       <div className="flex flex-col gap-[30px] ">
-        <div className="flex flex-col gap-[30px] text-center">
-          <hr className="animate-bounce h-2 w-[80px] mx-auto mb-3 border-0 rounded-full bg-accent" />
+        <div className="flex flex-col text-center my-4">
+          <hr className="animate-bounce  h-2 w-[80px] mx-auto mb-2 border-0 rounded-full bg-accent" />
           <h3 className="text-4xl  font-bold">{skills.title}</h3>
         </div>
         <ul className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:gap-[30px]">
@@ -243,8 +243,8 @@ const Skills = () => {
               <li key={index}>
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
-                    <TooltipTrigger className="w-full hover:border-accent hover:border  h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                      <div className="w-28  transition-all duration-300">
+                    <TooltipTrigger className="w-full hover:border-accent hover:border  h-[150px] bg-[#232329] rounded-xl flex justify-center items-center  group transition-all duration-300 hover:animate-pulse ">
+                      <div className=" transition-all duration-300 group ">
                         {skill.image}
                       </div>
                     </TooltipTrigger>
