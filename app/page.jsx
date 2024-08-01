@@ -5,6 +5,8 @@ import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+import Work from "./projects/page";
+import Articles from "@/components/Articles";
 
 const Home = () => {
   return (
@@ -50,6 +52,14 @@ const Home = () => {
       <Stats />
       <About />
       <Skills />
+      <div className="my-16">
+        <div className="flex flex-col text-center ">
+          <hr className="animate-bounce  h-2 w-[80px] mx-auto mb-2 border-0 rounded-full bg-accent" />
+          <h3 className="text-4xl  font-bold">My Projects</h3>
+        </div>
+        <Work />
+      </div>
+      <Articles />
     </section>
   );
 };

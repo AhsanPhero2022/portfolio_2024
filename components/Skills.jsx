@@ -14,7 +14,7 @@ const skills = {
         <Image
           src="/assets/images/html.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -27,7 +27,7 @@ const skills = {
         <Image
           src="/assets/images/css.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -39,7 +39,7 @@ const skills = {
         <Image
           src="/assets/images/js.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -51,7 +51,7 @@ const skills = {
         <Image
           src="/assets/images/ts.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -63,7 +63,7 @@ const skills = {
         <Image
           src="/assets/images/react.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -75,7 +75,7 @@ const skills = {
         <Image
           src="/assets/images/next.jpg"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -87,7 +87,7 @@ const skills = {
         <Image
           src="/assets/images/redux.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -99,7 +99,7 @@ const skills = {
         <Image
           src="/assets/images/rtk.jpeg"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -111,7 +111,7 @@ const skills = {
         <Image
           src="/assets/images/materialui.jpeg"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -123,7 +123,7 @@ const skills = {
         <Image
           src="/assets/images/antdesign.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -135,7 +135,7 @@ const skills = {
         <Image
           src="/assets/images/node-js.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -147,7 +147,7 @@ const skills = {
         <Image
           src="/assets/images/express-js.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -159,7 +159,7 @@ const skills = {
         <Image
           src="/assets/images/mongodb.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -171,7 +171,7 @@ const skills = {
         <Image
           src="/assets/images/mongoose.jpeg"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -183,7 +183,7 @@ const skills = {
         <Image
           src="/assets/images/firebase.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -195,7 +195,7 @@ const skills = {
         <Image
           src="/assets/images/vercel.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -207,7 +207,7 @@ const skills = {
         <Image
           src="/assets/images/netlify.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
@@ -219,7 +219,7 @@ const skills = {
         <Image
           src="/assets/images/github.png"
           width={100}
-          height={200}
+          height={100}
           className="rounded-lg"
           alt=""
         />
