@@ -14,7 +14,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsum.",
+    "👋 Hello there! A 23-year-old MERN stack web developer with expertise in React.js, Next.js, JavaScript, TypeScript, and Express.js. Aspiring to become a profess",
   info: [
     {
       fieldName: "Name",
@@ -51,7 +51,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "|Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam numquam deleniti maxime, quia voluptates inventore.",
+    "There is my web development, graduation journey and learning overview.",
   items: [
     {
       institution: "Programming Hero Platform",
@@ -62,6 +62,21 @@ const education = {
       institution: "Programming Hero Level Two",
       degree: "Full Stack Web Development",
       duration: "2024 - present",
+    },
+    {
+      institution: "Khamargram Degree College",
+      degree: "BSS (Bachelor of Social Science)",
+      duration: "2023 - present",
+    },
+    {
+      institution: "Eliaskona School College",
+      degree: "HSC (Higher Secondary Certificate)",
+      duration: "2021 - 2022",
+    },
+    {
+      institution: "Senior Madrasha",
+      degree: "SSC (Staff Selection Commission)",
+      duration: "2019 - 2020",
     },
   ],
 };
