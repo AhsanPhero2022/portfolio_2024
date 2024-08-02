@@ -54,8 +54,9 @@ const Contact = () => {
                 Let&rsquo;s work together
               </h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores non iusto consequatur, ipsa harum sint.
+                Are you searching for a dynamic and driven MERN stack web
+                developer proficient in frontend development using React.js,
+                Next.js? Look no further!
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="firstName" placeholder="FirstName" />
@@ -70,11 +71,17 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="service1">Full Stack Development</SelectItem>
-                    <SelectItem value="service2">Frontend Development</SelectItem>
-                    <SelectItem value="service3">Email Template Design</SelectItem>
+                    <SelectItem value="service1">
+                      Full Stack Development
+                    </SelectItem>
+                    <SelectItem value="service2">
+                      Frontend Development
+                    </SelectItem>
+                    <SelectItem value="service3">
+                      Email Template Design
+                    </SelectItem>
                     <SelectItem value="service4">SEO With Next.js</SelectItem>
-                                     </SelectGroup>
+                  </SelectGroup>
                 </SelectContent>
               </Select>
               <Textarea

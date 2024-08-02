@@ -5,9 +5,9 @@ import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
-import Work from "./projects/page";
 import Articles from "@/components/Articles";
 import Contact from "./contact/page";
+import Work from "./projects/page";
 
 const Home = () => {
   return (
