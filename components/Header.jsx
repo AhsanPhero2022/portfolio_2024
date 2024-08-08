@@ -1,7 +1,8 @@
 import Link from "next/link";
-import Nav from "./nav";
+
 import { Button } from "./ui/button";
 import MobileNav from "./MobileNav";
+import Nav from "./Nav";
 
 const Header = () => {
   return (
@@ -12,7 +13,6 @@ const Header = () => {
             Soriful <span className="text-accent">.</span>
           </h1>
         </Link>
-        {/* {Navbar} */}
 
         <div className="hidden lg:flex xl:flex items-center gap-8">
           <Nav />

@@ -43,7 +43,7 @@ const MobileNav = () => {
             </Link>
           </h1>
         </div>
-        <nav className="flex flex-col justify-center items-center gap-8">
+        <div className="flex flex-col justify-center items-center gap-8">
           {links.map((link, index) => {
             return (
               <Link
@@ -58,7 +58,7 @@ const MobileNav = () => {
               </Link>
             );
           })}
-        </nav>
+        </div>
       </SheetContent>
     </Sheet>
   );
