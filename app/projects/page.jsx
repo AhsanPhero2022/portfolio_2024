@@ -23,41 +23,41 @@ const projects = [
     name: "Online Support",
     stack: [
       { name: "React" },
+      { name: "Typescript" },
       { name: "Redux" },
-      { name: "Tailwind css" },
-      { name: "AOS" },
+      { name: "Tailwind" },
+      { name: "JWT" },
+      { name: "Express" },
     ],
     description:
-      "This is a charity website user can donate cloths, money and also anyone can join as a volunteer to support the poor kid's.",
+      "This is a charity website user can donate cloths, money and also anyone can join as a volunteer to support the poor kid's. User authentication build with JWT.",
     live: "https://preeminent-treacle-57fedb.netlify.app",
-    image: "/assets/work/thumb1.jpg",
+    image: "/assets/work/thumb1.JPG",
     github: "https://github.com/AhsanPhero2022/cloth-donation-client",
   },
   {
     num: "02",
-    category: "Full stack website",
-    title: "E-commerce website",
+    category: "Pure JavaScript App",
+    title: "Online Quiz",
     name: "online baby care store",
-    stack: [
-      { name: "Next.js" },
-      { name: "Typescript" },
-      { name: "Tailwind css" },
-    ],
+    stack: [{ name: "Javascript" }, { name: "Tailwind css" }],
     description:
       "User can buy products for his Baby, there is authorized all products.",
-    live: "https://baby-care-store-next-js-client-dun.vercel.app/",
-    image: "/assets/work/thumb2.jpg",
-    github: "https://github.com/AhsanPhero2022/babyCareStore-Next.js-client",
+    live: "https://quiz-app-purejs.netlify.app/",
+    image: "/assets/work/thumb2.JPG",
+    github:
+      "https://github.com/AhsanPhero2022/Quiz-App-Project?tab=readme-ov-file",
   },
   {
     num: "03",
-    category: "Frontend",
+    category: "Full Stack Project",
     title: "Best chef in USA",
     name: "USA chef",
     stack: [{ name: "React" }, { name: "Bootstrap" }],
-    description: "This is a chef review website you can see  the chef details.",
+    description:
+      "This is a chef review website you can see  the chef details. User can login and register the authentication build in firebase. All API calls from mongodb database",
     live: "https://assignment-10-d44c0.web.app/",
-    image: "/assets/work/thumb3.jpg",
+    image: "/assets/work/thumb3.JPG",
     github: "https://github.com/AhsanPhero2022/USA-chef-project",
   },
 ];
@@ -90,10 +90,13 @@ const Work = () => {
             <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
               {project.category}
             </h2>
+            <h2 className="text-[24px] font-semibold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+              {project.title}
+            </h2>
             {/* project description */}
             <p className="text-white/60">{project.description}</p>
             {/* stack */}
-            <ul className="flex gap-4">
+            <ul className="flex gap-4  ">
               {project.stack.map((item, index) => {
                 return (
                   <li key={index} className="text-accent text-xl">
@@ -163,7 +166,7 @@ const Work = () => {
 
               <WorkSliderBtns
                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
-                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
+                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all hover:bg-white text-black"
               />
             </Swiper>
           </div>

@@ -4,7 +4,7 @@ import React from "react";
 const Articles = () => {
   return (
     <section className="container">
-      <div className=" shadow-md bg-primary px-6 pb-6">
+      <div className=" shadow-md bg-primary px-2 lg:px-6 pb-6">
         <div className="my-12">
           <h1 className="p-4 text-3xl text-accent font-semibold">
             My Articles
