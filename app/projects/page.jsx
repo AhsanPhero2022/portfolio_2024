@@ -28,6 +28,7 @@ const projects = [
       { name: "Tailwind" },
       { name: "JWT" },
       { name: "Express" },
+      { name: "MongoDb" },
     ],
     description:
       "This is a charity website user can donate cloths, money and also anyone can join as a volunteer to support the poor kid's. User authentication build with JWT.",
@@ -96,7 +97,7 @@ const Work = () => {
             {/* project description */}
             <p className="text-white/60">{project.description}</p>
             {/* stack */}
-            <ul className="flex gap-4  ">
+            <ul className="flex gap-4  flex-wrap">
               {project.stack.map((item, index) => {
                 return (
                   <li key={index} className="text-accent text-xl">
